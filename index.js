@@ -3,8 +3,10 @@
 
 
 let ouvrir = document.querySelector('.bi-list');
-let liste = document.querySelector('.menu');
 let fermer = document.querySelector('.bi-x-lg');
+let liste = document.querySelector('.menu');
+
+
 ouvrir.addEventListener('click', function() {
     liste.style.visibility = 'visible';
     ouvrir.style.visibility = 'hidden';

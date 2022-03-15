@@ -16,10 +16,6 @@ header {
     align-items: center;
 }
 
-.logo {
-    font-size: large;
-}
-
 .ouvrir_fermer {
     visibility: hidden;
 }
@@ -56,8 +52,9 @@ li>a {
         position: absolute;
         left: 5px;
         width: 75px;
-        height: 30px;
+        height: 20px;
         cursor: pointer;
+        visibility: hidden;
     }
     .logo {
         position: absolute;
@@ -65,7 +62,7 @@ li>a {
         left: 0;
     }
     .contains {
-        height: 10vh;
+        height: 20vh;
     }
     .menu {
         visibility: hidden;
@@ -92,7 +89,7 @@ li>a {
     .connecter {
         border: none;
     }
-    .inscription {
+    .inscription:hover {
         text-decoration: none;
         border: none;
     }
